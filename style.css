@@ -172,16 +172,16 @@
 }
 
 .ex-12-button:hover .ex-12-top-white {
-    animation-name: meta;
+    animation-name: meta-sopra;
     animation-duration: 3s;
     animation-timing-function: linear;
 }
 .ex-12-button:hover .ex-12-bottom-white {
-    animation-name: tutto;
+    animation-name: meta-sotto;
     animation-timing-function: linear;
     animation-duration: 3s;
 }
-@keyframes meta {
+@keyframes meta-sopra {
     0% {
         left: 10%;
     }
@@ -192,7 +192,7 @@
         left: 10%;
     }
 }
-@keyframes tutto {
+@keyframes meta-sotto {
     0% {
         right: 10%;
     }
