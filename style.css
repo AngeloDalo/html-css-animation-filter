@@ -118,9 +118,28 @@
 }
 /*fine esercizio 10*/
 
+/*inizio esercizio 11*/
 .ex-11-icon {
     font-size: 60px;
 }
+.ex-11-icon:hover {
+    animation-name: tre-quarti-rotazione;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+@keyframes tre-quarti-rotazione {
+    0% {
+        transform: rotate(0deg);
+    }
+    95% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+/*fine esercizio 11*/
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
