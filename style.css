@@ -89,10 +89,20 @@
 }
 /*fine esercizio 6-7-8*/
 
+
+/*inizio esercizio 9*/
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 3s;
 }
+.ex-9-img:hover{
+    filter: hue-rotate(90deg) sepia(0.4);
+    border-radius: 5%;
+    width: 600px;  
+}
+/*fine esercizio 9*/
+
 .ex-10-icon {
     font-size: 60px;
 }
