@@ -39,13 +39,24 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
 }
+.ex-4-square:hover {
+    background-color: rgb(255, 255, 255, 1);
+    /*opacity*/
+}
+/*fine esercizio 4*/
+
+/*inizio esercizio 5*/
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
+
+/*fine esercizio 5*/
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
